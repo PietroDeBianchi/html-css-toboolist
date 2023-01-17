@@ -1,16 +1,21 @@
+/* SET-UP STYLE */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(91, 168, 248);
+}
+
 /* HEADER STYLE PART */
 
 header {
     width: 100%;
-    background-color: white;
-    padding-top: 15px;
-    padding-left: 15px;
+    background-color: whitesmoke;
+    padding: 15px 0 15px 15px;
 }
 
 header h1 {
@@ -18,3 +23,40 @@ header h1 {
     font-size: 50px;
     vertical-align: top;
 }
+
+/*  MAIN STYLE PART */
+
+main {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: whitesmoke;
+    border-radius: 5px 5px 0 0;
+}
+
+main div {
+    width: 80%;
+    margin: auto;
+}
+
+hr {
+    color: rgb(230, 226, 226);
+    border-style: solid;
+}
+
+/* BUTTON STYLE */
+
+#button-section button {
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+#add {
+    background-color: rgb(91, 168, 248);
+}
+
+/* LINE STYLE */
