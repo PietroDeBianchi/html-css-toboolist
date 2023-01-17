@@ -68,6 +68,8 @@ hr {
 
 /* LINE STYLE */
 
+/* styling the section + title */
+
 section {
     padding-top: 20px;
 }
@@ -83,11 +85,13 @@ h2::before {
     margin-right: 5px;
 }
 
+/* styling the under-lines */
+
 span {
     color: white;
     font-size: 12px;
     border-radius: 10px;
-    padding: 0 5px;
+    padding: 2px 5px;
     margin-left: 5px;
 }
 
