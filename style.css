@@ -9,6 +9,7 @@
 body {
     font-family: 'Kanit', sans-serif;
     background-color: rgb(91, 168, 248);
+    padding-bottom: 4%;
 }
 
 /* HEADER STYLE PART */
@@ -33,11 +34,11 @@ header img {
 /*  MAIN STYLE PART */
 
 main {
-    width: 80%;
+    width: 55%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 3%;
     background-color: whitesmoke;
-    border-radius: 5px 5px 0 0;
+    border-radius: 7px;
     
 }
 
@@ -118,3 +119,8 @@ p::before {
     margin-right: 5px;
 }
 
+/* last part */
+
+#last-section {
+    padding-bottom: 30px;
+}
