@@ -7,6 +7,7 @@
 }
 
 body {
+    font-family: 'Kanit', sans-serif;
     background-color: rgb(91, 168, 248);
 }
 
@@ -16,12 +17,17 @@ header {
     width: 100%;
     background-color: whitesmoke;
     padding: 15px 0 15px 15px;
+    display: flex;
+    align-items: center;
 }
 
 header h1 {
     display: inline-block;
-    font-size: 50px;
-    vertical-align: top;
+    font-size: 40px;
+}
+
+header img {
+    line-height: 40px;
 }
 
 /*  MAIN STYLE PART */
@@ -32,6 +38,7 @@ main {
     margin-top: 5%;
     background-color: whitesmoke;
     border-radius: 5px 5px 0 0;
+    
 }
 
 main div {
@@ -60,3 +67,7 @@ hr {
 }
 
 /* LINE STYLE */
+
+section {
+    padding-top: 20px;
+}
